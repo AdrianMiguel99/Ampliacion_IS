@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FreezerApiTests/FreezerApiTests.csproj" />
+  <Project Path="FreezerApp/FreezerApi.csproj" />
+</Solution>
