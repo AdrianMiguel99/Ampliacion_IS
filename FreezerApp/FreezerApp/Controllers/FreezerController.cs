@@ -17,22 +17,25 @@ namespace FreezerApi.Controllers
 
 
         [HttpPost("{temperature}")]
-        public IActionResult SetTargetTemperature([FromBody] int temperatura)
+        public IActionResult SetTargetTemperature([FromBody] double temperatura)
         {
             _freezerService.SetTargetTemperature(temperatura);
+
+            return Ok("Set target temperature to " + temperatura);
         }
 
         [HttpPost("cool")]
         public IActionResult CoolDown()
         {
-            _freezerService
+            _freezerService.CoolDown();
+            return Ok("Cooling down");
         }
 
 
-        [HttpPut("ExpressFreezer")]
+        [HttpPut("ExpressFreezerOn")]
         public IActionResult ExpressFreezer()
         {
-            _freezerService.ExpressFreezer();
+            _freezerService.ExpressFreezerOn();
             return Ok("Express Freezer activated");
         }   
     }

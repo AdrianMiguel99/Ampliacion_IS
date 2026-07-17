@@ -9,9 +9,10 @@
         void PowerOn();
         void PowerOff();
         int CalculateResources();
-        public void ExpressFreezer();
+        public void ExpressFreezerOn();
         public void ExpressPowerOff();
-        public void ExpressPowerOn();
+
+        public void CoolDown();
 
     }
 }
