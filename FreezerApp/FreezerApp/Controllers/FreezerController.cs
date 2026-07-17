@@ -7,22 +7,13 @@ namespace FreezerApi.Controllers
     [Route("api/[controller]")]
     public class FreezerController : ControllerBase
     {
-        private static bool _poweredOn = true;
-        private static double _currentTemperature = 5;
-        private static double _targetTemperature = -18;
+        
 
 
         [HttpPost("target-temperature")]
         public IActionResult SetTargetTemperature(double temperature)
         {
-            if (temperature > 0)
-            {
-                return BadRequest("Target temperature must be below 0");
-            }
-
-            _targetTemperature = temperature;
-
-            return Ok("Target temperature updated");
+            
         }
 
         [HttpPost("cool")]
