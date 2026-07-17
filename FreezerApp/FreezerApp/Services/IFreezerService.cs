@@ -1,18 +1,19 @@
-﻿namespace FreezerApi.Service
+﻿using FreezerApi.Models;
+namespace FreezerApi.Service
 {
     public interface IFreezerService
     {
         void SetTargetTemperature(double temperature);
         double GetCurrentTemperature();
         double GetTargetTemperature();
-        bool IsPoweredOn();
         void PowerOn();
         void PowerOff();
-        int CalculateResources();
+        double CalculateResources(FreezeProfile profile);
         public void ExpressFreezerOn();
-        public void ExpressPowerOff();
-
+        public void ExpressFreezerOff();
         public void CoolDown();
+
+        public bool IsExpressFreezerOn();
 
     }
 }

@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "uizzc1Tao64=",
+  "dgSpecHash": "DHquzAwQo94=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rebec\\source\\repos\\ExamenAmpli\\ExamenAmpli\\FreezerApi.csproj",
+  "projectFilePath": "C:\\Users\\B70734\\Desktop\\Ampliacion_B70734\\ampliacion\\Ampliacion_IS\\FreezerApp\\FreezerApp\\FreezerApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rebec\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
-    "C:\\Users\\rebec\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\B70734\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\B70734\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1903",
       "level": "Warning",
-      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "C:\\Users\\rebec\\source\\repos\\ExamenAmpli\\ExamenAmpli\\FreezerApi.csproj",
+      "message": "El paquete \"Microsoft.OpenApi\" 2.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\B70734\\Desktop\\Ampliacion_B70734\\ampliacion\\Ampliacion_IS\\FreezerApp\\FreezerApp\\FreezerApi.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\rebec\\source\\repos\\ExamenAmpli\\ExamenAmpli\\FreezerApi.csproj",
+      "filePath": "C:\\Users\\B70734\\Desktop\\Ampliacion_B70734\\ampliacion\\Ampliacion_IS\\FreezerApp\\FreezerApp\\FreezerApi.csproj",
       "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"

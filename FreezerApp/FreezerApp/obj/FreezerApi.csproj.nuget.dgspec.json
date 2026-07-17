@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rebec\\source\\repos\\ExamenAmpli\\ExamenAmpli\\FreezerApi.csproj": {}
+    "C:\\Users\\B70734\\Desktop\\Ampliacion_B70734\\ampliacion\\Ampliacion_IS\\FreezerApp\\FreezerApp\\FreezerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rebec\\source\\repos\\ExamenAmpli\\ExamenAmpli\\FreezerApi.csproj": {
+    "C:\\Users\\B70734\\Desktop\\Ampliacion_B70734\\ampliacion\\Ampliacion_IS\\FreezerApp\\FreezerApp\\FreezerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rebec\\source\\repos\\ExamenAmpli\\ExamenAmpli\\FreezerApi.csproj",
+        "projectUniqueName": "C:\\Users\\B70734\\Desktop\\Ampliacion_B70734\\ampliacion\\Ampliacion_IS\\FreezerApp\\FreezerApp\\FreezerApi.csproj",
         "projectName": "FreezerApi",
-        "projectPath": "C:\\Users\\rebec\\source\\repos\\ExamenAmpli\\ExamenAmpli\\FreezerApi.csproj",
-        "packagesPath": "C:\\Users\\rebec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rebec\\source\\repos\\ExamenAmpli\\ExamenAmpli\\obj\\",
+        "projectPath": "C:\\Users\\B70734\\Desktop\\Ampliacion_B70734\\ampliacion\\Ampliacion_IS\\FreezerApp\\FreezerApp\\FreezerApi.csproj",
+        "packagesPath": "C:\\Users\\B70734\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\B70734\\Desktop\\Ampliacion_B70734\\ampliacion\\Ampliacion_IS\\FreezerApp\\FreezerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rebec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\B70734\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,7 +30,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -45,11 +44,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
@@ -76,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

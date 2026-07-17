@@ -32,7 +32,7 @@ namespace FreezerApi.Controllers
         }
 
 
-        [HttpPut("ExpressFreezerOn")]
+        [HttpPost("ExpressFreezerOn")]
         public IActionResult ExpressFreezer()
         {
             _freezerService.ExpressFreezerOn();

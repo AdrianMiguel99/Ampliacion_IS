@@ -1,19 +1,24 @@
 ﻿using System;
+using System.ComponentModel;
 using FreezerApi.Models;
+using FreezerApi.Service;
+using FreezerApi.Services;
 
 namespace FreezerApi.Services
 {
     public class FreezerService : IFreezerService
-    {
+    {   
+
         private double ExpressFreezerPorcentage = 0.4;
         private static bool _poweredOn = true;
         private static double _currentTemperature = 5;
         private static double _targetTemperature = -18;
         private bool _expressFreezerOn = false;
 
+        
 
 
-        public void coolDown()
+        public void CoolDown() 
         {
             if (!_poweredOn)
             {
@@ -59,7 +64,7 @@ namespace FreezerApi.Services
 
 
 
-        void SetTargetTemperature(double temperature)
+        public void SetTargetTemperature(double temperature)
         {
             if (!_poweredOn)
             {
@@ -132,6 +137,16 @@ namespace FreezerApi.Services
                 throw new InvalidOperationException("Freezer is off");
             }
             _expressFreezerOn = false;
+        }
+
+        void IFreezerService.SetTargetTemperature(double temperature)
+        {
+            SetTargetTemperature(temperature);
+        }
+
+        public bool IsExpressFreezerOn()
+        {
+            return _expressFreezerOn;
         }
     }
 }

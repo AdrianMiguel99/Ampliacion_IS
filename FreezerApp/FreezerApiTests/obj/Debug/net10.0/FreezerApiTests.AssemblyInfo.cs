@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FreezerApiTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0255df0a021090047afa632ea8c2b00b8652e784")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84f441ebb6126249da60293dc3dc2c9f05caae7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FreezerApiTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FreezerApiTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
