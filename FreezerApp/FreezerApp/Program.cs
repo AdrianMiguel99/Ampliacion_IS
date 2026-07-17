@@ -1,5 +1,5 @@
-using FreezerApp.Services;
-using FreezerApp.Interfaces;
+using FreezerApp.FreezerApi.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddScoped<IFreezerService, FreezeService>();
+builder.Services.AddScoped<IFreezerService, FreezerService>();
 
 var app = builder.Build();
 

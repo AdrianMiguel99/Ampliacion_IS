@@ -1,14 +1,14 @@
-﻿using System;
-using FreezerApi.Interfaces;
+﻿using FreezerApi.Service;
+using System;
 namespace FreezerApi.Services
 {
-    public class FreezeService : IFreezerService
+    public class FreezerService : IFreezerService
     {
         private static bool _poweredOn = true;
         private static double _currentTemperature = 5;
         private static double _targetTemperature = -18;
 
-        public FreezeService() { }
+        public FreezerService() { }
 
         void SetTargetTemperature(double temperature)
         {   
@@ -22,6 +22,7 @@ namespace FreezerApi.Services
                 throw new ArgumentOutOfRangeException("Target temperature must be below 0");
             }
             _targetTemperature = temperature;
+
             return Ok("Target temperature updated");
 
         }
@@ -36,7 +37,7 @@ namespace FreezerApi.Services
             return _currentTemperature;
         }
 
-        public int CalculateResources(
+        public int CalculateResources()
         {
             double difference = GetCurrentTemperature() - GetTargetTemperature();
 
@@ -53,6 +54,6 @@ namespace FreezerApi.Services
                 return 100;
             }
             return 50;
-        })
+        }
     }
 }
